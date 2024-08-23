@@ -1,6 +1,6 @@
-package com.example.ttsjavakvt.service.impl;
+package com.example.ttsjavakvt.service.implement;
 
-import com.example.ttsjavakvt.model.Staff;
+import com.example.ttsjavakvt.entity.Staff;
 import com.example.ttsjavakvt.repository.StaffMajorFacilityRepository;
 import com.example.ttsjavakvt.repository.StaffRepository;
 import com.example.ttsjavakvt.service.EmployeeService;

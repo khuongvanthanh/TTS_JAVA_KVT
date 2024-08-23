@@ -1,9 +1,9 @@
 package com.example.ttsjavakvt.controller;
 
 import com.example.ttsjavakvt.dto.StaffData;
-import com.example.ttsjavakvt.model.Department;
-import com.example.ttsjavakvt.model.Facility;
-import com.example.ttsjavakvt.model.Major;
+import com.example.ttsjavakvt.entity.Department;
+import com.example.ttsjavakvt.entity.Facility;
+import com.example.ttsjavakvt.entity.Major;
 import com.example.ttsjavakvt.service.DepartmentMajorService;
 import com.example.ttsjavakvt.service.ExcelService;
 import jakarta.servlet.http.HttpServletResponse;

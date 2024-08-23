@@ -1,7 +1,7 @@
-package com.example.ttsjavakvt.service.impl;
+package com.example.ttsjavakvt.service.implement;
 
 import com.example.ttsjavakvt.dto.DataRequest;
-import com.example.ttsjavakvt.model.*;
+import com.example.ttsjavakvt.entity.*;
 import com.example.ttsjavakvt.repository.*;
 import com.example.ttsjavakvt.service.DepartmentMajorService;
 import lombok.RequiredArgsConstructor;

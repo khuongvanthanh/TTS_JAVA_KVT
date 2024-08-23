@@ -1,6 +1,6 @@
 package com.example.ttsjavakvt.service;
 
-import com.example.ttsjavakvt.model.Staff;
+import com.example.ttsjavakvt.entity.Staff;
 
 import java.util.List;
 import java.util.Optional;

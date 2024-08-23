@@ -1,4 +1,4 @@
-package com.example.ttsjavakvt.model;
+package com.example.ttsjavakvt.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,9 +10,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "department")
-public class Department extends AbstractEntity{
-
+@Table(name = "facility")
+public class Facility extends AbstractEntity{
     @Size(max = 255)
     @Column(name = "code")
     private String code;

@@ -1,4 +1,4 @@
-package com.example.ttsjavakvt.model;
+package com.example.ttsjavakvt.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

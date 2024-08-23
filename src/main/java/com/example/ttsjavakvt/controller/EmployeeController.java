@@ -1,7 +1,7 @@
 package com.example.ttsjavakvt.controller;
 
 import com.example.ttsjavakvt.dto.ImportExcelHistory;
-import com.example.ttsjavakvt.model.Staff;
+import com.example.ttsjavakvt.entity.Staff;
 import com.example.ttsjavakvt.repository.StaffRepository;
 import com.example.ttsjavakvt.service.EmployeeService;
 import com.example.ttsjavakvt.utils.FileUtil;

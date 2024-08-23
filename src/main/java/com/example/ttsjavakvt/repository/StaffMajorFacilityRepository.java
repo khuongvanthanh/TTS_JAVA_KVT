@@ -1,6 +1,6 @@
 package com.example.ttsjavakvt.repository;
 
-import com.example.ttsjavakvt.model.StaffMajorFacility;
+import com.example.ttsjavakvt.entity.StaffMajorFacility;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

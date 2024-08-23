@@ -1,14 +1,14 @@
-package com.example.ttsjavakvt.Exception;
+package com.example.ttsjavakvt.Error;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-public class EmailFeValidator implements ConstraintValidator<EmailFe, String> {
+public class EmailFptValidator implements ConstraintValidator<EmailFpt, String> {
 
-    private static final String EMAIL_SUFFIX = "@fe.edu.vn";
+    private static final String EMAIL_SUFFIX = "@fpt.edu.vn";
 
     @Override
-    public void initialize(EmailFe constraintAnnotation) {
+    public void initialize(EmailFpt constraintAnnotation) {
     }
 
     @Override

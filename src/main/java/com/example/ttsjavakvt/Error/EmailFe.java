@@ -1,5 +1,4 @@
-package com.example.ttsjavakvt.Exception;
-
+package com.example.ttsjavakvt.Error;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 import java.lang.annotation.ElementType;
@@ -7,12 +6,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Constraint(validatedBy = EmailValidValidator.class)
+@Constraint(validatedBy = EmailFeValidator.class)
 @Target({ ElementType.FIELD, ElementType.METHOD, ElementType.ANNOTATION_TYPE, ElementType.PARAMETER })
 @Retention(RetentionPolicy.RUNTIME)
-public @interface EmailValid {
+public @interface EmailFe {
 
-    String message() default "Email không hợp lệ!";
+    String message() default "Không chứa khoảng trắng và kết thúc bằng @fe.edu.vn";
 
     Class<?>[] groups() default {};
 

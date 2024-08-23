@@ -1,6 +1,6 @@
 package com.example.ttsjavakvt.repository;
 
-import com.example.ttsjavakvt.model.Department;
+import com.example.ttsjavakvt.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

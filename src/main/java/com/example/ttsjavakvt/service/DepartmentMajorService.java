@@ -1,10 +1,10 @@
 package com.example.ttsjavakvt.service;
 
 import com.example.ttsjavakvt.dto.DataRequest;
-import com.example.ttsjavakvt.model.Department;
-import com.example.ttsjavakvt.model.Facility;
-import com.example.ttsjavakvt.model.Major;
-import com.example.ttsjavakvt.model.StaffMajorFacility;
+import com.example.ttsjavakvt.entity.Department;
+import com.example.ttsjavakvt.entity.Facility;
+import com.example.ttsjavakvt.entity.Major;
+import com.example.ttsjavakvt.entity.StaffMajorFacility;
 
 import java.util.List;
 
