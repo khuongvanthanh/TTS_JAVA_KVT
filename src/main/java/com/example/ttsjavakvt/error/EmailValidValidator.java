@@ -1,4 +1,4 @@
-package com.example.ttsjavakvt.Error;
+package com.example.ttsjavakvt.error;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

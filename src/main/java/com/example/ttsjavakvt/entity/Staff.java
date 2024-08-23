@@ -1,7 +1,7 @@
 package com.example.ttsjavakvt.entity;
 
-import com.example.ttsjavakvt.Error.EmailFe;
-import com.example.ttsjavakvt.Error.EmailFpt;
+import com.example.ttsjavakvt.error.EmailFe;
+import com.example.ttsjavakvt.error.EmailFpt;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
