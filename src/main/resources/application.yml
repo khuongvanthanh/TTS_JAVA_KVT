@@ -1,0 +1,24 @@
+excel:
+  prefix:
+    staffCode: PH34331
+    name: Khương Văn Thành
+    accountFPT: thanhkvph34331@fpt.edu.vn
+    accountFE: thanhkvph34331@fe.edu.vn
+    contentType: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    historyImport: import-history.txt
+app:
+  verify:
+    user: thanh
+    type: 1
+    key: key_vnh
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost;encrypt=true;trustServerCertificate=true;databaseName=exam_distribution_test
+    username: sa
+    password: 123
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: none
